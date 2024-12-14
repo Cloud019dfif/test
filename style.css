@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Arapey:ital@0;1&family=Archivo:ital,wdth,wght@0,75,100..900;1,75,100..900&family=Bebas+Neue&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiny5&display=swap');
+
+*{
+    font-family: "Archivo", sans-serif;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+header{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-top: 8px ;
+    border-radius: 35px;
+}
+
+.logo{
+    color: #d3d3dd;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.navg a{
+    color: #d3d3dd;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 200;
+    padding-left: 30px;
+} 
+.navg a:hover{
+    color: #9090ad;
+}
+
+main{
+    padding: 427px 214px;
+    align-items: center;
+    background-image:url(Images/header.jpg) ;
+    background-position: center;
+    background-size: cover;
+    
+}
+main h2{
+    color: #d3d3dd;
+}
+main h3{
+    color: #d3d3dd;
+    font-size: 37px;
+    font-weight: 200px;
+    
+}
+/*سوريا حرة*/
+.b1{
+    border: none;
+    font-size: 26px;
+    letter-spacing: 1.2px;
+    display: inline-block;
+    border-radius: 53px;
+    padding: 0.3rem 0.7rem;
+    background: #1E2A47;
+    color: #d3d3dd;
+    transition: 0.7s ease;
+}
+.b1:hover{
+    color:#9090ad ;
+    transform:scale(1.1) ;
+    background:#172137;
+    
+}
+
+.na{
+    margin-top: 102px;
+    display: flex;
+    justify-content:center;
+    color: #d3d3dd;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.se{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.c{
+    background: #1E2A47;
+    color: #d3d3dd;
+    width: 340px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 21px;
+    padding: 4px;
+    margin: 37px;
+    transition: 0.4s ease;
+}
+.c:hover{
+    transform: scale(1.1);
+}
+
+.ic{
+    color: aliceblue;
+    font-size: 128px;
+    text-align: center;
+}
+
+.inf{
+    text-align: center;
+}
+.inf h3{
+    color: #d3d3dd;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px;
+}
+.inf p{
+    font-size: 26px;
+}
+
+.projs{
+    background: rgb(0, 0, 0);
+}
+.projs .c {
+    margin-top: 55px;
+}
+.projs .ca{
+    background: white;
+    border: 1px solid black;
+    min-height: 324px;
+    width: 340px;
+    overflow: hidden;
+    border-radius: 21px;
+    margin: 37px;
+    transition: 0.7s ease;
+}
+.projs .ca:hover{
+    transform: scale(1.1);
+}
+.projs .ca:hover .igm{
+    opacity: 0.9;
+    
+}
+.projs .igm img{ 
+    width: 100%;
+}
+.pi{
+    padding: 33px;
+}
+.ca{
+    font-size: 18px;
+    display: flex;
+}
+.ca .pc{
+    font-size: 15px;
+}
+.ci{
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 1 0x
+}
+.md{
+    text-decoration: none;
+    color: #d3d3dd;
+}
+.md:hover{
+    color: #9090ad;
+}
+.da{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer{
+    margin-top: 193px;
+}
+.sicons{
+    font-size: 121px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #172137;
+    
+}
+.by{
+    font-size: 55px;
+    font-weight: 800;
+}
